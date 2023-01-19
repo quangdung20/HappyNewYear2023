@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./common.css">
     <link rel="stylesheet" href="./phaohoa.css">
     <script src="./js/main.js" defer></script>
     <title>Happy New Year 2023</title>
@@ -26,12 +28,21 @@
         <div class="pyro"><div class="before"></div><div class="after"></div></div>
     
         <div class ="slide1">
-            <img class="bg__img" src="./image/background.jpg">
+            <img class="bg__img" src="./image/bgr.jpg">
+            <img class="bg__img" src="./image/background.jpg" style="opacity: 0.6">
+
             <!-- <div class="slide2">
                 <img class="bg__cloud" src="./image/bg-cloud.png"></img>
             </div> -->
         </div>
-        
+        <section class="border__frame box-position">
+            <div class="border-items">
+                <img class="frame-top align-box_1" src="/image/rim1.png">
+            </div>
+            <div class="border-items">
+                <img class="frame-bottom align-box_1 " src="/image/rim1.png">
+            </div>
+        </section>
         <div class="cloud__bottom">
             <img class="cloud_one"src="/image/big-clouds3.png">
             <img class="cloud_two"src="/image/big-clouds1.png">
@@ -46,9 +57,117 @@
             <img class="cloud_width-1" src="/image/texture-clouds.png">
            
         </div>
-        
-        <div class="box-flower">
-            
-        </div>
+        <section class="box__lantern">
+            <div class="lantern-items">
+                <img class="lantern-item1" src="/image/lanterns-content.png">
+            </div>
+            <div class="lantern-items">
+                <img class="lantern-item2" src="/image/lanterns-content.png">
+            </div>
+            <div class="lantern-items">
+                <img class="lantern-item2" src="/image/lanterns-content.png">
+            </div>
+            <div class="lantern-items">
+                <img class="lantern-item1" src="/image/lanterns-content.png">
+            </div>
+        </section>
+        <section class="diamond box-position">
+            <div class="box-image">
+                <img class="bg_diamond" src="./image/diamond.png">
+                <img class="bg_diamond" src="./image/diamond.png">
+                <img class="bg_diamond" src="./image/diamond.png">
+                <img class="bg_diamond" src="./image/diamond.png">
+            </div>  
+            <div class="box-content">
+                <div class="content-item"><p></p></div>
+                <div class="content-item"><p></p></div>
+                <div class="content-item"><p></p></div>
+                <div class="content-item"><p></p></div>
+                
+            </div> 
+        </section>
+
+
+<!-- Red envelope -->
+        <section class="slider__envelope">
+            <div class="envelope--content">
+                <div class="left align-box_2"> 
+                    
+                    <div class="bg_left"></div>
+                    <div class="circle_left">
+                        <div class="bg-circle"><img src="/image/circular-pattern.png" alt="">
+                        </div>
+                        <div>
+                            <span>Happy New</span>
+                            <span>Year</span>
+                            <span>2023</span>
+                        </div>
+
+                      </div>
+                    <!-- <div class="lantern-envelope">
+                        <img src="./image/lanterns.png" alt="">
+                    </div> 
+                    <div class="evonlope-flowwer">
+                        <img src="image/flower.png" alt="">
+                        <img src="image/flower1.png" alt="">
+                        <img src="image/flower2.png" alt="">
+                        <img src="image/big-flower.png" alt="">
+                        <img src="image/big-flower1.png" alt="">
+                        <img src="image/big-flower2.png" alt="">
+                        <img src="image/apricot-blossom.png" alt="">
+                    </div> -->
+                </div>
+                <div class="right align-box_2">
+                    <div class="content--right">
+                        <style>
+                          .tab {
+                            max-width: 500px;
+                            margin: 25px auto;
+                            font-family: 'Dancing Script', cursive;
+                          }
+                          .tab-list {
+                            display: flex;
+                            padding: 5px;
+
+                          }
+                          .tab-item {
+                            flex: 1;
+                            text-align: center;
+                            padding: 10px 20px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            font-weight: 600;
+                            border-radius: inherit;
+                          }
+                          .tab-item {
+                            color: rgb(0, 0, 0);
+                            font-size: 30px;
+                          }
+                          .tab-content {
+                            text-align: center;
+                            font-size: 18px;
+                            padding: 30px 15px 0px 15px;
+                          }
+                        </style>
+                        <div class="tab">
+                          <div class="tab-list">
+                            <div class="tab-item ">🧡Gửi em!</div>
+                          </div>
+                          <div class="tab-content">
+                            Năm mới, anh chỉ chúc em được nhiều sức khỏe thôi.
+                             Còn về hạnh phúc và niềm vui, anh mong rằng chính 
+                             mình sẽ là người mang những điều đó đến với em. Yêu 
+                             em nhiều! Năm mới đến rồi, một năm qua thật đặc biệt 
+                             với anh và cả em nữa. Năm mới đến đồng nghĩa với việc 
+                             anh lại được nối dài năm tháng yêu thương chăm sóc em. 
+                             Anh chúc em tràn đầy hạnh phúc ngọt ngào hãy gìn giữ và 
+                             nuôi dưỡng tình yêu của chúng mình em nhé.
+                        
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 </body>
 </html>

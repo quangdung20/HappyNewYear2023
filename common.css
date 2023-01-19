@@ -1,0 +1,15 @@
+.align-box_2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.align-box_1{
+    position: absolute;
+    width: 100%;
+}
+.box-position{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+}
