@@ -1,0 +1,318 @@
+
+.slider__envelope{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(0); */
+    /* transition: all 0.5s; */
+}
+
+.slider__envelope .envelope--content{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background: rgb(153, 5, 5);
+    border-radius: 10px;
+    border-right:1px solid rgb(255, 217, 66) ;
+
+}
+.envelope--content .left{
+    background: rgb(161, 1, 1);
+    border-right: 4px solid #c12b068e;
+    overflow: hidden;
+}
+
+.left .bg_left {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    background: rgb(161, 1, 1);
+    border-left: 10px solid rgba(255, 234, 4, 0.902);
+    border-right: 10px solid rgba(255, 234, 4, 0.902);
+    z-index: 100;
+}
+.left .bg_left::before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    left: 3.5%;
+    height: 100%;
+    background: rgb(156, 19, 58);
+    border-left: 4px solid rgba(255, 234, 4, 0.902);
+    border-right: 4px solid rgba(255, 234, 4, 0.902);
+}
+
+.left .circle_left{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+}
+.left .circle_left .bg-circle{
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    background: rgba(204, 14, 68, 0.709);
+    filter: drop-shadow(5px 5px 10px rgba(7, 7, 7,0.6));
+}
+.left .circle_left .bg-circle img{
+    width: 350px;
+}
+.left .circle_left div{
+    position: absolute;
+    color: rgb(255 216 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight:bold;
+    font-family:'Lobster', cursive;
+    filter: drop-shadow(2px 2px 2px rgb(7, 7, 7));
+
+}
+.left .envelope-flower{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    top: 0;
+    left: 0;
+}
+
+.left .envelope-flower img{
+    position: absolute;
+    height: auto;
+}
+.left .envelope-flower img:nth-child(1){
+    width: 130px;
+    top: 0px;
+    left: -10px;
+    filter: drop-shadow(5px 5px 5px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(2){
+    width: 30px;
+    top: 30px;
+    left: 200px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(3){
+    width: 40px;
+    top: 400px;
+    left: 100px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(4){
+    width: 25px;
+    top: 315px;
+    left: 340px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(5){
+    width: 35px;
+    top: 40px;
+    left: 135px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(6){
+    width: 60px;
+    top: 350px;
+    left: 20px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(7){
+    width: 50px;
+    top: 30px;
+    left: 280px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+    z-index: 1;
+}
+.left .envelope-flower img:nth-child(8){
+    width: 120px;
+    top: 430px;
+    left: 70px;
+}
+.left .envelope-flower img:nth-child(9){
+    width: 140px;
+    top: -50px;
+    right: -40px;
+}
+.left .envelope-flower img:nth-child(10){
+    width: 40px;
+    top: 150px;
+    right: 10px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(11){
+    width: 100px;
+    top: 360px;
+    left: -40px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(12){
+    width: 20px;
+    top: 20px;
+    left: 245px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+.left .envelope-flower img:nth-child(13){
+    width: 15px;
+    top: 10px;
+    left: 270px;
+    filter: drop-shadow(2px 2px 2px rgba(7, 7, 7,0.6));
+}
+
+
+
+.envelope--content .right{
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envelope--content .right .content--right{
+    width: 85%;
+    height: 95%;
+    background: rgb(255 216 128);
+    border-radius: 10px;
+}
+
+.envelope--content .right .content--right .tab {
+    max-width: 500px;
+    margin: 25px auto;
+    font-family: 'Dancing Script', cursive;
+  }
+  .tab-list {
+    display: flex;
+    padding: 5px;
+
+  }
+  .tab-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: inherit;
+  }
+  .tab-item {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  .tab-content {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 15px 0px 15px;
+  }
+/* }
+.slider__circle.active{
+    transform: scale(1);
+}
+.slider__circle-content .right .content{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    background: rgb(255, 216, 138);
+}
+.slider__circle:hover .title h1{
+    animation: title 2s forwards;
+}
+@keyframes title{
+    0%{
+        margin-top: -40px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+.slider__circle-content .right .content p{
+    padding: 30px 15px 0px 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0;
+    transition: 1s;
+}
+.slider__circle:hover .content p{
+    animation: bodyContent 2s 1s forwards;
+}
+@keyframes bodyContent{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.content .fixedContent{
+    width: 250px;
+    height: 80px;
+    overflow: hidden; 
+    margin-left: 150px;  
+}
+.slider__circle-content .right .content h3{
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 0px 0px 20px;
+    margin-top: -50px;
+}
+.slider__circle:hover .content h3{
+    animation: fixedContent 2s 2s forwards;
+}
+@keyframes fixedContent{
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+/* ----active------ */
+
+.box-flower .flower-img.active{
+   animation: activeScale 1s forwards;
+   transition: all 1s;
+}
+@keyframes activeScale{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+.circle.active{
+   animation: activeScale 1s forwards;
+}
+.box-slider_img1.active{
+   animation: activeScale 1s 1.2s forwards;
+}
+.cat.active{
+   animation: activeScale 1s 1s forwards;
+}
+.box-number.active{
+   animation: activeScale 1s forwards;
+}
+.box-button.active{
+   animation: activeScale 1s forwards;
+   opacity: 0;
+
+} 
